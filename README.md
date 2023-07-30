@@ -10,6 +10,7 @@ Tested on Ubuntu 18.04, Pytorch 1.12 and CUDA 11.3.
 
 ```bash
 conda create -n ernerf python=3.10
+sudo apt install portaudio19-dev
 conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
 pip install -r requirements.txt
 pip install "git+https://github.com/facebookresearch/pytorch3d.git"
