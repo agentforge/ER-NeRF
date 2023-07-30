@@ -37,8 +37,8 @@ pip install tensorflow-gpu==2.8.0
 - Download 3DMM model from [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details):
 
   ```
-  cp 01_MorphableModel.mat data_util/face_tracking/3DMM/
-  cd data_util/face_tracking
+  cp 01_MorphableModel.mat data_utils/face_tracking/3DMM/
+  cd data_utils/face_tracking
   python convert_BFM.py
   ```
 
